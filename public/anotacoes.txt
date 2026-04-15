@@ -1,9 +1,1 @@
-npm i - instala pasta node_modules
-
-node app.js -> roda a aplicação ❌
-
-npm init -y
-
-npm i nodemon - rodar o servidor ✅
-
-npm run dev 
+executar o banco nesse projeto: npm start
