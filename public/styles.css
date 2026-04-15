@@ -38,19 +38,16 @@ button {
     cursor: pointer;
 }
 
-/* Botão calcular */
 button:first-of-type {
     background-color: #4CAF50;
     color: white;
 }
 
-/* Botão salvar */
 button:last-of-type {
     background-color: #2196F3;
     color: white;
 }
 
-/* Hover (efeito ao passar o mouse) */
 button:hover {
     opacity: 0.9;
 }
@@ -64,7 +61,6 @@ h3 {
     margin-top: 20px;
 }
 
-/* Lista de histórico */
 ul {
     list-style: none;
     padding: 0;

@@ -11,7 +11,6 @@ function calcularIMC() {
     document.getElementById("resultado").innerHTML = "IMC: " + imc.toFixed(2);
 }
 
-// salvar no backend
 async function salvarIMC() {
     let peso = document.getElementById("peso").value;
     let altura = document.getElementById("altura").value;
@@ -40,7 +39,6 @@ async function salvarIMC() {
     carregarIMCs();
 }
 
-// carregar histórico
 async function carregarIMCs() {
     let resposta = await fetch("http://localhost:3001/ler");
     let dados = await resposta.json();
@@ -55,7 +53,6 @@ async function carregarIMCs() {
     });
 }
 
-// carregar ao abrir página
 window.onload = function () {
     carregarIMCs();
 };
