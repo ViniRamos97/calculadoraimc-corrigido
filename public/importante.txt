@@ -1,0 +1,3 @@
+projeto desenvolvido por Stefanie e Vinícius
+
+executar o banco nesse projeto: npm start
